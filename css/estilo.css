@@ -1,0 +1,48 @@
+* h2{
+    color:#9e8c6c;
+}
+li{
+    list-style-type;
+}
+.Layaut{
+    width: 100%;
+    height: auto;
+    background-color: #f5f3f0;
+}
+.Menu{
+    max-width: 1024px;
+    height: 550px;
+    align-content: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.Menu .text{
+    margin: 0 auto;
+}
+.Menu img{
+    width: 350px;
+    height: 350px;
+}
+.Menu .btn{
+    background-color:#0699a6;
+    padding: 20px;
+    color: aliceblue;
+    text-decoration: none;
+}
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+}
+.footer{
+    width: 100%;
+    height: 547px;
+    background-color: aquamarine;    
+}
+.menu-footer{
+    margin: 0 auto ;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
