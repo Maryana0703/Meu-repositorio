@@ -8,6 +8,9 @@ li{
     width: 100%;
     height: auto;
     background-color: #f5f3f0;
+    display: flex;
+    align-items: center;    
+    padding: 120px 0px;
 }
 .Menu{
     max-width: 1024px;
@@ -16,6 +19,7 @@ li{
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
+    align-items: center;
 }
 .Menu h3{
     font-size: 100px;
@@ -33,6 +37,7 @@ li{
     padding: 20px;
     color: aliceblue;
     text-decoration: none;
+    display: inline-block;
 }
 .container{
     max-width: 1024px;
@@ -81,7 +86,7 @@ li{
 
 @media screen and (max-width:1024px){
     .container{
-        width: auto;
+        width: 100%;
         flex-direction: column;
     }
     .Layaut{
@@ -91,6 +96,13 @@ li{
     .Layaut .Menu{
         width: 100%;
         flex-direction: column;
+    }
+    .coluna2{
+        margin-left: 0px;
+    }
+    .text h3{
+        align-items: center;
+        margin: 0 auto;
     }
 }
 
