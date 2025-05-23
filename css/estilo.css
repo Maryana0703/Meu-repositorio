@@ -42,11 +42,22 @@ li{
 .container{
     max-width: 1024px;
     margin: 0 auto;
+    display: flex; 
+}
+.box5 .texto-data{
     display: flex;
-  
+    flex-direction: row;
+    justify-content: space-between;
 }
 .box1,.box2,.box3,.box4,.box5,.box6{
     margin-top: 52px;
+}
+.texto-data h3{
+    color: #9e8c6c;
+}
+.box5 h2{
+    color: black;
+    font-size: 30px;
 }
 .box3 .btn{
     text-decoration: none;
