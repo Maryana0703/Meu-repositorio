@@ -3,13 +3,11 @@ li{
     list-style-type: none;
 }
 :root{
-    --color-primary: #535353;
-    --color-secundary: #353331;
-    --color-header-footer:#DDDDDD;
+    --color-primary: #0663A6;   
+    --color-secundary: #8DADC5;
+    --color-header-footer:#8DADC5   ;
     --color-text:black;
     --color-btn: white;
-
-
 }
 .Layaut{
     width: 100%;
@@ -19,6 +17,7 @@ li{
     align-items: center;    
     padding: 120px 0px;
 }
+
 .Menu{
     max-width: 1024px;
     height: auto;
@@ -39,6 +38,7 @@ li{
 .Menu img{
     width: 350px;
     height: auto;
+    border-radius: 50%;
 }
 .Menu .btn{
     background-color:var(--color-primary);
@@ -52,6 +52,7 @@ li{
     max-width: 1024px;
     margin: 0 auto;
     display: flex; 
+    
 }
 .box5 .texto-data{
     display: flex;
@@ -84,12 +85,16 @@ li{
     text-decoration: none;
     color: var(--color-primary);
 }
-.box6 h2{
+h2{
+    color: var(--color-primary);
+    font-size: 30px;
+}
+.box5 h2{
     color: var(--color-primary);
     font-size: 30px;
 }
 .box6 .texto1{
-    color:var(--color-secundary);
+    color:var(--color-text);
 }
 .coluna2{
     margin-left: 138px;
@@ -117,7 +122,28 @@ li{
     justify-content: space-between;
     flex-direction: column;
 }
-
+.trabalhos .box-port{
+    width: 309px; 
+}
+.info-box {
+   display: flex;
+   flex-direction: row;
+   align-items: baseline;
+   justify-content: space-between;
+}
+.box-port-p{
+    display: flex;  
+}
+.info-box .btn{
+    text-decoration: none;
+    color: var(--color-text);
+}
+.box-port{
+    padding: 10px;
+}
+.box-port img{
+    width: 100%;
+}
 @media screen and (max-width:1024px){
     .container{
         width: 100%;
