@@ -48,6 +48,13 @@ li{
     display: inline-block;
     font-size: large;
 }
+.Menu .btn:hover{
+    background-color:var(--color-btn);
+    color: var(--color-primary);
+    text-decoration: none;
+    display: inline-block;
+    font-size: large;
+}
 .container{
     max-width: 1024px;
     margin: 0 auto;
